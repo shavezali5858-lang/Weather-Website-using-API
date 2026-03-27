@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin:0%;
+}
+.mainbox{
+    text-align: center;
+    width:600px;
+    height:600px;
+    border: 0.5px solid beige;
+    border-radius: 25px;
+
+}
+body{
+    height: 100vh;
+    background: #2a5c6e;
+background: linear-gradient(90deg, rgba(42, 92, 110, 1) 0%, rgba(87, 199, 133, 1) 56%, rgba(237, 221, 83, 1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+    color: beige;
+    margin-top: 15px;
+}
+.search input {
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.search button{
+     height: 30px;
+     width: 30px;
+     font-size: 20px;
+     color:cadetblue;
+}
+.humidity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: ;
+    margin-top: 20px;
+}
+#humidity-para{
+    margin-left: 35px;
+    font-size: 25px;
+    margin-right: 15px;
+}
+#wind-para{
+    margin-left: 40px;
+    font-size:25px;
+}
+.details{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+.humidity img{
+    width: 50px;
+    
+}
+.wind img{
+    width: 50px;
+}
+#inputbox{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.humidity p{
+    color: beige;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.wind p{
+    color: beige;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.error{
+    color: greenyellow;
+    margin-right: 150px;
+}
+ p{
+    display: none;
+}
